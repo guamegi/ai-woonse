@@ -142,10 +142,10 @@ body {
 
 .subtitle {
   /* font-family: JUA; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.53;
   text-align: center;
-  color: var(--dark-grey-blue);
+  color: #508ce2;
 }
 .subtitle_2 {
   /* font-family: JUA; */
@@ -157,7 +157,7 @@ body {
 
 .subtitle_3 {
   /* font-family: JUA; */
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.53;
   text-align: center;
   color: #000000;
@@ -170,10 +170,14 @@ body {
   .navbar-brand {
     font-size: 2rem;
   }
+  .file-upload {
+    width: 80% !important;
+  }
 }
 
 .file-upload {
-  padding: 8% 3%;
+  width: 50%;
+  padding: 2% 2%;
   margin: 0 auto;
   border-radius: 10px;
   border: solid 1.5px #f6f7fa;
